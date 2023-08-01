@@ -10,8 +10,17 @@ module.exports = {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      colors: {
+       'primary': 'rgb(72,158,147)',
+       'secondary': 'rgb(8,107,181)',
+       'medi-red': 'rgb(220,63,77)',
+      },
+      fontFamily: {
+        'banner': [ 'Belanosima', 'sans-serif'],
+        'rale': ['Raleway', 'sans-serif']
+      }
     },
   },
   plugins: [],
