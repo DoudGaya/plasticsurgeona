@@ -37,7 +37,7 @@ export default function RootLayout({
 
         <meta
           property="og:image"
-          content="../public/logo"
+          content="../public/logo.png"
            />
                     
         <meta name="twitter:card" content="summary_large_image" />
@@ -50,12 +50,11 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=5,minimum-scale=1,user-scalable=yes" />
         <link rel="canonical" href="https://www.plasticsurgeona.com/" />
         <meta name="referrer" content="origin-when-cross-origin" />
-        <meta property="og:site_name" content="Nillar" />
-        <meta property="og:title" content="Nillar" />
-        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+        <meta property="og:site_name" content="Plastic Surgeona" />
+        <meta property="og:title" content="Plastic Surgeona" />
         
       </Head>
-      <body className={inter.className}>
+      <body className={`${inter.className} bg-[rgb(255,253,252)]`}>
         <Navigation />
         {children}
       </body>

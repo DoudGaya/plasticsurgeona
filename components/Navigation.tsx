@@ -20,19 +20,19 @@ export const Navigation = () => {
         <div className=" flex space-x-6">
            <ul className=' flex h-full items-center  space-x-6'>
             <li>
-              <Link className='h-full font-poppins flex hover:underline' href={''}>Home</Link>
+              <Link className='h-full font-popping flex hover:underline' href={''}>Home</Link>
             </li>
             <li>
-              <Link className='h-full font-poppins flex hover:underline' href={''}>Gallery</Link>
+              <Link className='h-full font-popping flex hover:underline' href={''}>Gallery</Link>
             </li>
             <li>
-              <Link className='h-full font-poppins flex hover:underline' href={''}>Articles</Link>
+              <Link className='h-full font-popping flex hover:underline' href={''}>Articles</Link>
             </li>
           </ul>
           
            <ul className=' flex space-x-4 items-center'>
             <li>
-              <button className=" flex-none flex   w-full border-[rgb(94,45,21)] py-2 px-4 border-2 rounded-full">Free Consultation</button>
+              <button className=" flex-none hover:bg-primary/20 flex font-popping w-full border-[rgb(94,45,21)] py-2 px-4 border-2 rounded-full">Free Consultation</button>
             </li>
             <li>
                <Link href='tel:+905411794062' className=' bg-[rgb(94,45,21)] text-white py-3 flex space-x-3 px-6 w-full border-2 rounded-full ' type='tel'>
