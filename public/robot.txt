@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://plasticsurgeona.com/sitemap.xml

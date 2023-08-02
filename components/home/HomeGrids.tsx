@@ -16,78 +16,76 @@ import Image from 'next/image'
 const svgs = [
     {
         id: 1,
-        name: 'Message',
+        name: 'Tummy Tuck',
         icon: svg1
     },
      {
         id: 2,
-        name: 'Message',
+        name: 'Breast Augmentation',
         icon: svg2
     },
-      {
+    {
         id: 3,
-        name: 'Message',
-        icon: svg3
+        name: 'Arm Lift (Brachioplasty)',
+        icon: svg10
     },
      {
         id: 4,
-        name: 'Message',
+        name: 'Brazilian Butt Lift',
         icon: svg4
     },
      {
         id: 5,
-        name: 'Message',
+        name: 'Blepharoplasty',
         icon: svg5
     },
      {
         id: 6,
-        name: 'Message',
+        name: 'Eyebrow Extensions',
         icon: svg6
     },
      {
         id: 7,
-        name: 'Message',
+        name: 'Liposuction',
         icon: svg7
     },
      {
         id: 8,
-        name: 'Message',
+        name: 'Lip Augmentation',
         icon: svg8
     },
      {
         id: 9,
-        name: 'Message',
+        name: 'Facelift (Rhytidectomy)',
         icon: svg9
     },
+
      {
         id: 10,
-        name: 'Message',
-        icon: svg10
-    },
-     {
-        id: 11,
-        name: 'Message',
-        icon: svg11
-    },
-     {
-        id: 12,
-        name: 'Message',
+        name: 'Breast Reduction',
         icon: svg12
     },
 ]
 
 export const HomeGrids = () => {
   return (
-    <div className=' grid mx-auto gap-6 my-10 grid-cols-6'>
+      <div className=" flex flex-col justify-center my-20 mx-auto max-w-4xl">
+          <div className=" flex justify-center border-b py-3 ">
+              <h2 className=' font-rale text-2xl'>Some of our Cosmetic Procedures</h2>
+          </div>
+          
+           <div className=' grid mx-auto gap-4 py-6 grid-cols-5'>
           {
               svgs.map((tar) => {
                   return (
-                      <div className=" py-6 rounded-lg  px-6 border border-primary">
-                          <Image src={tar.icon} className=' h-[50px] w-[50px] rounded-lg' alt={'Image'} />
+                      <div className=" py-6 rounded-lg flex flex-col justify-center items-center px-4 border border-primary">
+                          <Image src={tar.icon} className=' h-[70px] border border-primary p-2 w-[70px] rounded-lg' alt={'Image'} />
+                          <p className=' text-sm text-center my-4'> { tar.name } </p>
                       </div>
                   )
               })
           }
     </div>
+   </div>
   )
 }

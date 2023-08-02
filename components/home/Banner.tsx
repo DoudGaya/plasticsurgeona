@@ -2,7 +2,7 @@ import bannerIMG from '@/public/assets/femaleBanner.jpg'
 
 export const Banner = () => {
   return (
-    <div className='  bg-blend-overlay  bg-stone-700 bg-no-repeat bg-cover bg-center' style={{ backgroundImage: `url(${bannerIMG.src})` }}> 
+    <div className='  bg-blend-overlay  bg-stone-700 py-[100px] bg-no-repeat bg-cover bg-center' style={{ backgroundImage: `url(${bannerIMG.src})` }}> 
       <div className=" py-10 max-w-3xl text-center mx-auto items-center justify-center">
         <h3 className=' font-popping  text-white text-4xl'>
         Say Goodbye To Stubborn Fat
