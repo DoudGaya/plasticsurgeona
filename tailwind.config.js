@@ -19,7 +19,8 @@ module.exports = {
       },
       fontFamily: {
         'banner': [ 'Belanosima', 'sans-serif'],
-        'rale': ['Raleway', 'sans-serif']
+        'rale': ['Raleway', 'sans-serif'],
+        'popping': ['Poppins', 'sans-serif']
       }
     },
   },
