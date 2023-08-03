@@ -13,9 +13,10 @@ module.exports = {
         'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       colors: {
-       'primary': 'rgb(94,45,21)',
-       'secondary': 'rgb(205,161,157)',
-       'medi-red': 'rgb(220,63,77)',
+      'primary': 'rgb(94,45,21)',
+      'secondary': 'rgb(205,161,157)',
+      'medi-red': 'rgb(220,63,77)',
+      'tert': 'rgb(255,224,209)'
       },
       fontFamily: {
         'banner': [ 'Belanosima', 'sans-serif'],

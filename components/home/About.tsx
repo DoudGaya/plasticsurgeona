@@ -7,7 +7,7 @@ import tummy from '@/public/assets/plastics/tummy.png'
 import Link from "next/link"
 export const About = () => {
   return (
-    <div className=" my-20 bg-cover bg-blend-overlay bg-stone-700 backdrop-blur-lg" style={{ backgroundImage: `url(${hips.src})` }}>
+    <div className=" my-20 bg-cover z-0 bg-fixed bg-blend-overlay bg-stone-700 backdrop-blur-lg" style={{ backgroundImage: `url(${hips.src})` }}>
           <div className=" grid grid-cols-2 max-w-5xl space-x-10 mx-auto">
               <div className=" grid  overflow-hidden gap-5 py-10 grid-cols-2">
                   <div className=" col-span-2 overflow-hidden">
