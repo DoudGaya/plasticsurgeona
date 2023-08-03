@@ -7,8 +7,8 @@ import Head from 'next/head'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Plastic Surgeon',
-  description: 'Unlease your inner beauty',
+  title: 'Plastic Surgeona | Expert Touch',
+  description: 'PlasticSurgeonA offers world-class plastic surgery services in Turkey. Our expert plastic surgeons provide a wide range of cosmetic procedures. Contact us for a consultation!',
 }
 
 export default function RootLayout({
@@ -26,7 +26,6 @@ export default function RootLayout({
         />
 
         <title className=' font-rale italic'>Plastic Surgeona | Expert Touch</title>
-
         <meta name='robots' content='index,follow' />
         <meta property="og:title" content="Global Plastic Surgery in Turkey | PlasticSurgeonA" />
         <meta property="og:description" content="PlasticSurgeonA offers world-class plastic surgery services in Turkey. Our expert plastic surgeons provide a wide range of cosmetic procedures. Contact us for a consultation!" />
