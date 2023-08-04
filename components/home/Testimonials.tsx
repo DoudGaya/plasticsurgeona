@@ -18,11 +18,11 @@ export const Testimonials = () => {
                       <div className=" py-4 mb-4 flex space-x-4 items-center border-b border-secondary">
                         <Image alt='' src={testimo.img} className=' h-12 w-12 border-2 border-primary rounded-full object-cover ' />
                         <span className=' font-popping'>
-                            { testimo.name }
+                          { testimo.name }
                         </span>
                       </div>
                       <p className=' font-rale text-sm'>
-                          { testimo.message }
+                        { testimo.message }
                       </p>
                     </div>
                   )

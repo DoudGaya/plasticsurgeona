@@ -26,6 +26,34 @@ import before5 from '@/public/assets/before&after/bf5.png'
 import before6 from '@/public/assets/before&after/bf6.jpg'
 import before7 from '@/public/assets/before&after/bf7.png'
 import before8 from '@/public/assets/before&after/bf8.jpg'
+import Link from 'next/link'
+import { LiaFacebookSquare } from 'react-icons/lia'
+import { LiaTwitter } from 'react-icons/lia'
+import { LiaInstagram } from 'react-icons/lia'
+import {LiaLinkedinIn} from 'react-icons/lia'
+
+export const socials = [
+    {
+        id: 1,
+        icon: ( <LiaFacebookSquare className=' h-7 w-7 fill-primary' /> ),
+        link:'https://www.facebook.com/plasticsurgeona'
+    },
+    {
+        id: 2,
+        icon: ( <LiaInstagram className=' h-7 w-7 fill-primary' />),
+        link:'https://www.twitter.com//plasticsurgeona'
+    },
+    {
+        id: 3,
+        icon: ( <LiaTwitter className=' h-7 w-7 fill-primary' />),
+        link:'https://www.facebook.com/'
+    },    {
+        id: 4,
+        icon: <LiaLinkedinIn className=' h-7 w-7 fill-primary' />,
+        link:'https://www.facebook.com/'
+    },
+
+]
 
 
 
@@ -147,7 +175,7 @@ export const beforeNdAfter = [
     },
         {
         id: 7, 
-        surgery: 'Brazilian Butt Lift',
+        surgery: 'Hair Transplant',
         image: before7
     },
         {
