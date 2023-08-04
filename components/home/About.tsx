@@ -8,19 +8,19 @@ import Link from "next/link"
 export const About = () => {
   return (
     <div className=" mt-20 bg-cover z-0 bg-fixed bg-blend-overlay bg-stone-700 backdrop-blur-lg" style={{ backgroundImage: `url(${hips.src})` }}>
-          <div className=" grid grid-cols-2 max-w-5xl space-x-10 mx-auto">
-              <div className=" grid  overflow-hidden gap-5 py-10 grid-cols-2">
-                  <div className=" col-span-2 overflow-hidden">
-                      <Image src={Image1} className=" h-[200px] rounded-2xl object-cover" alt="Plastic Surgeona Surgery" />
+          <div className=" grid grid-cols-1 lg:grid-cols-2 max-w-5xl lg:space-x-10 mx-auto">
+              <div className=" grid overflow-hidden gap-5 py-10 px-10 lg:px-0 grid-cols-1 lg:grid-cols-2">
+                  <div className=" lg:col-span-2 overflow-hidden">
+                      <Image src={Image1} className=" h-[200px] w-full rounded-2xl object-cover" alt="Plastic Surgeona Surgery" />
+                  </div>
+                  <div className=" overflow-hidden w-full">
+                         <Image src={face} className=" h-[200px] w-full rounded-2xl object-cover" alt="Plastic Surgeona Surgery" />
                   </div>
                   <div className=" overflow-hidden">
-                         <Image src={face} className=" h-[200px] rounded-2xl object-cover" alt="Plastic Surgeona Surgery" />
-                  </div>
-                  <div className=" overflow-hidden">
-                        <Image src={tummy} className=" h-[200px] rounded-2xl object-cover" alt="Plastic Surgeona Surgery" />
+                        <Image src={tummy} className=" h-[200px] w-full rounded-2xl object-cover" alt="Plastic Surgeona Surgery" />
                   </div>
               </div>
-              <div className=" flex flex-col space-y-8 px-6 bg-secondary/40 text-white items-center justify-center">
+              <div className=" flex flex-col space-y-8 lg:px-6  py-20 lg:py-0 px-10 bg-secondary/40 text-white items-center justify-center">
                   <h3 className=" border-b py-3 font-popping text-2xl  font-semibold">Transform Your Beauty with Global Excellence</h3>
                   <p className=" text-justify font-popping">
                       Welcome to PlasticSurgeonA, the epitome of excellence

@@ -69,12 +69,12 @@ const svgs = [
 
 export const HomeGrids = () => {
   return (
-      <div className=" flex flex-col justify-center my-10 mx-auto max-w-4xl">
+      <div className=" flex flex-col justify-center my-10 px-10 lg:px-0 mx-auto max-w-4xl">
           <div className=" flex justify-center border-b border-primary py-3 ">
-              <h2 className=' font-rale text-2xl'>Some of our Cosmetic Procedures</h2>
+              <h2 className=' font-rale text-2xl text-center'>Some of our Cosmetic Procedures</h2>
           </div>
           
-           <div className=' grid mx-auto gap-4 py-6 grid-cols-5'>
+           <div className=' grid mx-auto gap-4 py-6 grid-cols-2 lg:grid-cols-5'>
           {
               svgs.map((tar) => {
                   return (

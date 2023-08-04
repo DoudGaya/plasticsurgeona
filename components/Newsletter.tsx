@@ -7,7 +7,7 @@ import Link from 'next/link'
 export const Newsletter = () => {
   return (
       <div className=' bg-no-repeat bg-primary/40 bg-blend-multiply bg-cover bg-fixed' style={{ backgroundImage: `url('${butt.src}')` }}>
-          <div className=" mx-auto max-w-5xl gap-x-10 grid grid-cols-2">
+          <div className=" mx-auto max-w-5xl gap-x-10 grid grid-cols-1 lg:grid-cols-2">
               <div className=" py-10 my-auto bg-secondary px-10">
                   <form className=' space-y-4 w-full flex flex-col '>
                       <label htmlFor="newsletter" className='items-center space-y-4 w-full  flex flex-col' id='newsletter'>
@@ -24,7 +24,7 @@ export const Newsletter = () => {
                           <h3 className=' text-3xl text-white font-rale py-6'>Get Free Consultation </h3>
                       </div>
                     <form className=' flex flex-col space-y-4 '>
-                        <div className="flex space-x-4">
+                        <div className="flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-4">
                             <label htmlFor="email">
                             <p className=' hidden'>First Name</p>
                             <input type="text" placeholder='First Name' required className=' px-4 bg-[#fdeacf] rounded-md w-full outline-none focus:outline-none py-2 ' />
@@ -34,7 +34,7 @@ export const Newsletter = () => {
                             <input type="text" placeholder='Last Name' required className=' px-4 bg-[#fdeacf] rounded-md w-full outline-none focus:outline-none py-2 ' />
                         </label>
                           </div>
-                            <div className="flex space-x-4">
+                            <div className="flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-4">
                             <label htmlFor="email">
                             <p className=' hidden'>Email</p>
                             <input type="email" placeholder='Email Address' required className=' px-4 bg-[#fdeacf] rounded-md w-full outline-none focus:outline-none py-2 ' />

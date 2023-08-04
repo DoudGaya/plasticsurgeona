@@ -30,30 +30,30 @@ const cards = [
 
 export const WhatWeOffer = () => {
   return (
-      <div className=' max-w-6xl mx-auto -mt-10 flex shadow-2xl shadow-secondary/60 border-b border-primary/40 flex-col rounded-3xl bg-[#ffecd1]'>
+      <div className=' max-w-6xl mx-auto lg:-mt-10  flex shadow-2xl shadow-secondary/60 border-b border-primary/40 flex-col rounded-3xl bg-[#ffecd1]'>
           <div className=" flex justify-center pt-20">
             <h2 className=' text-2xl font-rale'>What we Offer</h2>
           </div>
-          <div className=" gap-x-6 grid-cols-3 px-10 py-6 grid mx-auto ">
+          <div className=" gap-x-6 grid-cols-1 lg:grid-cols-3 px-10 py-6 grid mx-auto ">
             {
                   cards.map((card) => {
                       return (
-                        <div className=" flex flex-col">
-                              <div className=" flex space-x-4 items-center">
-                                <span className='p-2 flex justify-center items-center bg-secondary my-4 rounded-full'>
+                        <div className=" flex py-6 lg:py-0 flex-col space-y-4 lg:space-y-0">
+                              <div className=" flex space-x-4 flex-col lg:flex-row items-center">
+                                <span className='p-2 flex  justify-center items-center bg-secondary my-4 rounded-full'>
                                     { card.svg }      
                                   </span>
                                   <span className=' font-popping'> { card.title }</span>
                               </div> 
                               <div className="">
-                                  <p className='text-sm font-rale'> { card.message } </p>
+                                  <p className='lg:text-sm text-base text-center lg:text-left font-rale'> { card.message } </p>
                               </div>
                         </div>
                     )
                 } )    
             } 
           </div>
-          <div className=" flex justify-center mb-10">
+          <div className=" flex justify-center mb-20">
                 <Link href={'/consultations'} className=" text-white text-xl font-rale bg-primary py-2 px-6 border-2 border-secondary rounded-full">
                     Book Free Consultation 
                 </Link>

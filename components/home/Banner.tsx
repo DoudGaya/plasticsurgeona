@@ -2,20 +2,20 @@ import bannerIMG from '@/public/assets/femaleBanner.jpg'
 
 export const Banner = () => {
   return (
-    <div className='  bg-blend-overlay  bg-stone-700 h-screen py-[100px] bg-no-repeat bg-cover bg-center' style={{ backgroundImage: `url(${bannerIMG.src})` }}> 
-      <div className=" py-10 max-w-3xl text-center mx-auto items-center justify-center">
-        <h3 className=' font-popping  text-white text-4xl'>
+    <div className='  bg-blend-overlay bg-stone-700 bg-right h-full lg:h-screen py-[100px] bg-no-repeat bg-cover lg:bg-center' style={{ backgroundImage: `url(${bannerIMG.src})` }}> 
+      <div className=" py-10 max-w-3xl px-10 lg:px-0 text-center mx-auto items-center justify-center">
+        <h3 className=' font-popping text-2xl  text-white lg:text-4xl'>
         Say Goodbye To Stubborn Fat
           and Saggy Belly Skin With 
           Tummy Tuck Surgery
         </h3>
       </div>  
-      <div className=" max-w-5xl mx-auto grid align-middle justify-items-center justify-center grid-cols-2">
+      <div className=" max-w-5xl mx-auto grid align-middle justify-items-center justify-center grid-cols-1 lg:grid-cols-2">
         <div className="py-10 mx-auto">
           <div className="  px-10 bg-[rgb(239,180,178)]/70 py-12">
             <p className=' font-rale text-center mb-4 text-2xl text-primary'>Get free Consultation.</p>
-            <form className=' flex flex-col space-y-4 '>
-              <div className="flex space-x-4">
+            <form className=' flex flex-col my-20 lg:my-0 space-y-4 '>
+              <div className="flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-4">
                   <label htmlFor="email">
                   <p className=' hidden'>First Name</p>
                   <input type="text" placeholder='First Name' required className=' px-4 bg-[#fdeacf] rounded-md w-full outline-none focus:outline-none py-2 ' />
@@ -25,7 +25,7 @@ export const Banner = () => {
                   <input type="text" placeholder='Last Name' required className=' px-4 bg-[#fdeacf] rounded-md w-full outline-none focus:outline-none py-2 ' />
               </label>
                 </div>
-                  <div className="flex space-x-4">
+                  <div className="flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-4">
                   <label htmlFor="email">
                   <p className=' hidden'>Email</p>
                   <input type="email" placeholder='Email Address' required className=' px-4 bg-[#fdeacf] rounded-md w-full outline-none focus:outline-none py-2 ' />
@@ -39,7 +39,9 @@ export const Banner = () => {
             </form>
           </div>
         </div>
-        <div className=""></div>
+        <div className="">
+          Hello hi 
+        </div>
       </div>
     </div>
   )

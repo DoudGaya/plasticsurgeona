@@ -3,10 +3,10 @@ import Link from "next/link"
 
 export const CallToAction = () => {
   return (
-      <div className="  max-w-4xl mx-auto flex items-center w-full">
-          <div className=' flex bg-secondary px-4 py-3 rounded-lg items-center w-full justify-between'>
+      <div className="  max-w-4xl mx-auto flex items-center px-10 lg:px-0 w-full">
+          <div className=' flex bg-secondary px-4 py-3 rounded-lg lg:flex-row flex-col items-center w-full justify-between'>
           <div className=" flex items-center">
-                  <p className=' items-center font-popping text-2xl text-primary  text-center'>
+                  <p className=' items-center text-base font-popping lg:text-2xl text-primary  text-center'>
                    Follow Us on Social Media
                  </p>
           </div>

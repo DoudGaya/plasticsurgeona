@@ -6,7 +6,7 @@ import React from 'react'
 
 export const Navigation = () => {
   return (
-    <div className=" w-full fixed top-0 left-0 z-50 bg-[rgb(255,224,209)] justify-center text-stone-700 shadow-lg py-3 h-auto  flex ">
+    <div className=" w-full hidden md:flex fixed top-0 left-0 z-50 bg-[rgb(255,224,209)] justify-center text-stone-700 shadow-lg py-3 h-auto ">
     <div className=" flex justify-between  max-w-[1300px] w-full ">
         <div className="  w-max">
            <Link href={'/'} className="">

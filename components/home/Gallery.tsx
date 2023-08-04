@@ -18,8 +18,8 @@ export const Gallery = () => {
   }, [])
 
   return (
-    <div className=' bg-tert container w-full py-20'>
-        <div className=' grid grid-cols-3 gap-x-10 mx-auto justify-center max-w-6xl'>
+    <div className=' bg-tert container w-full px-10 py-20'>
+        <div className=' grid lg:grid-cols-3 gap-y-10 lg:gap-y-0 grid-cols-1 lg:gap-x-10 mx-auto justify-center max-w-6xl'>
         <div className=" flex flex-col gap-y-5">
           <div className=" py-3 border-b border-primary">
             <h3 className=' font-rale font-semibold text-xl'>Trusted Destination for World-Class Aesthetic Procedures</h3>
