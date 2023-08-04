@@ -13,6 +13,7 @@ export const Gallery = () => {
 
 
   useEffect(() => {
+    //@ts-ignore
     setWidth(slider?.current?.scrollWidth - slider?.current?.offsetWidth)
   }, [])
 
@@ -35,6 +36,7 @@ export const Gallery = () => {
         </div>
         
         <motion.div
+          // @ts-ignore
           ref={slider}
           whileTap={{cursor: "grabbing"}}
           className=" col-span-2 flex overflow-hidden border-r border-primary relative flex-col">
