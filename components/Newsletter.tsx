@@ -12,7 +12,7 @@ export const Newsletter = () => {
                   <form className=' space-y-4 w-full flex flex-col '>
                       <label htmlFor="newsletter" className='items-center space-y-4 w-full  flex flex-col' id='newsletter'>
                           <p className=' text-xl font-rale'>Subscribe to our Newsletter</p>
-                          <input name='newsletter' className=' w-full py-2 bg-[#fdeacf]' type="text" />
+                          <input name='newsletter' placeholder='your@mail.com' className=' focus:outline-none w-full py-2 px-3 bg-[#fdeacf]' type="email" required />
                       </label>
                           <button className='bg-[rgb(94,45,21)] py-2 text-white font-popping'>Subscribe here</button>
                   </form>
@@ -27,21 +27,21 @@ export const Newsletter = () => {
                         <div className="flex space-x-4">
                             <label htmlFor="email">
                             <p className=' hidden'>First Name</p>
-                            <input type="text" placeholder='First Name' className=' px-4 rounded-md w-full outline-none focus:outline-none py-2 ' />
+                            <input type="text" placeholder='First Name' required className=' px-4 bg-[#fdeacf] rounded-md w-full outline-none focus:outline-none py-2 ' />
                         </label>
                         <label htmlFor="email">
                             <p className=' hidden'>Last Name</p>
-                            <input type="text" placeholder='Last Name' className=' px-4 rounded-md w-full outline-none focus:outline-none py-2 ' />
+                            <input type="text" placeholder='Last Name' required className=' px-4 bg-[#fdeacf] rounded-md w-full outline-none focus:outline-none py-2 ' />
                         </label>
                           </div>
                             <div className="flex space-x-4">
                             <label htmlFor="email">
                             <p className=' hidden'>Email</p>
-                            <input type="email" placeholder='Email Address' className=' px-4 rounded-md w-full outline-none focus:outline-none py-2 ' />
+                            <input type="email" placeholder='Email Address' required className=' px-4 bg-[#fdeacf] rounded-md w-full outline-none focus:outline-none py-2 ' />
                         </label>
                         <label htmlFor="email">
                             <p className=' hidden'>Phone Number</p>
-                            <input type="phone" placeholder='Phone Number' className=' px-4 rounded-md w-full outline-none focus:outline-none py-2 ' />
+                            <input type="phone" placeholder='Phone Number' required className=' px-4 bg-[#fdeacf] rounded-md w-full outline-none focus:outline-none py-2 ' />
                         </label>
                         </div>
                         <button className='bg-[rgb(94,45,21)] py-2 text-white font-popping'>Book for Free</button>
@@ -50,11 +50,11 @@ export const Newsletter = () => {
                           {
                               socials.map((social) => {
                                   return (
-                                <Link key={social.id} href={social.link} className="">
-                                    <span className='p-2 flex justify-center items-center bg-secondary my-4 rounded-full'>
+                                <Link key={social.id} href={social.link} className=" hover:bg-primary/30 rounded-full">
+                                    <span className='p-2 flex justify-center items-center bg-secondary rounded-full'>
                                         { social.icon }      
                                   </span>
-                                   </Link>
+                                </Link>
                                )   
                               })
                           }

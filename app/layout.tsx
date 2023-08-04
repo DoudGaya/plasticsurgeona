@@ -3,6 +3,7 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import { Navigation } from '@/components/Navigation'
 import Head from 'next/head'
+import { Footer } from '@/components/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -79,6 +80,7 @@ export default function RootLayout({
       <body className={`${inter.className} bg-[rgb(253,243,238)]`}>
         <Navigation />
         {children}
+        <Footer />
       </body>
     </html>
   )
