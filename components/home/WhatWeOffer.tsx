@@ -9,14 +9,14 @@ const cards = [
     {
         id: 1, 
         title: 'Special Healthcare Assistant',
-        message: 'A medical consultant will assist you before, during and after the surgery to make sure you have all the support you could need and answers all your questions.',
+        message: 'A medical consultant will assist you throughout the surgery to make sure you have all the support you may need and answers all your questions.',
         svg: <LiaHandsHelpingSolid className=' h-8 stroke-primary fill-primary w-8 flex-none' />
     },
 
     {
         id: 1, 
         title: 'Accommodation and Transfer',
-        message: 'We will arrangement to your accommodation and transportation within the city prior to your arrival by our skillful logistics team.',
+        message: 'We will make arrangement for your accommodation and transportation within the city prior to your arrival by our skillful logistics and hospitality team',
         svg: <GiHomeGarage className=' h-8 stroke-primary fill-primary w-8 flex-none' /> 
     },
     {

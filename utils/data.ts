@@ -70,16 +70,19 @@ export const standing = [
 export const testimonies = [
     {
         id: 0,
-        name: 'julia Anderson',
-        img: test1,
-        message: `Immensely grateful for reconstructive surgery, Plastic Surgeona restored my self-confidence after my accident`
-    },
-     {
-        id: 1,
         name: 'Nina Adams',
         img: test2,
+        message: `Grateful for the welcoming team at Plastic Surgeona, my rhinoplasty was a success, and I'm more confident than ever!`
+
+    },
+    {
+        id: 1,
+        name: 'Doud Gaya',
+        img: julia,
         message: `Game-changer! Non-surgical facial rejuvenation was tailored to my needs, and I feel years younger.`
     },
+   
+     
       {
         id: 2,
         name: 'Amelia Watson',
@@ -96,13 +99,13 @@ export const testimonies = [
         id: 3,
         name: 'Ismail Ahmad',
         img: test5,
-        message: `Thrilled with my breast augmentation results! Plastic Surgeona's dedication and attention to detail are impressive.`
+        message: `Immensely grateful for reconstructive surgery, Plastic Surgeona restored my self-confidence after my accident`
     },
     {
-        id: 3,
-        name: 'Doud Gaya',
-        img: julia,
-        message: `Grateful for the welcoming team at Plastic Surgeona, my rhinoplasty was a success, and I'm more confident than ever!`
+        id: 4,
+        name: 'julia Anderson',
+        img: test1,
+        message: `Thrilled with my breast augmentation results! Plastic Surgeona's dedication and attention to detail are impressive.`
     },
 ]
 
