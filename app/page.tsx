@@ -6,10 +6,12 @@ import { HomeGrids } from '@/components/home/HomeGrids'
 import { Gallery } from '@/components/home/Gallery'
 import { Testimonials } from '@/components/home/Testimonials'
 import { BeforeAndAfter } from '@/components/home/BeforeAndAfter'
+import { WhatWeOffer } from '@/components/home/WhatWeOffer'
 export default function Home() {
   return (
     <main className=" flex flex-col w-full">
       <Banner />
+      <WhatWeOffer />
       <HomeGrids />
       <CallToAction />
       <About />

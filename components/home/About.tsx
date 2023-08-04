@@ -29,7 +29,7 @@ export const About = () => {
                       journey that will redefine your confidence and radiate your inner beauty.
                   </p>
                   <div className="">
-                    <Link href={'/before-and-after'} className=" text-xl font-rale bg-primary py-2 px-6 border-2 border-secondary rounded-full">
+                    <Link href={'/consultations'} className=" text-xl font-rale bg-primary py-2 px-6 border-2 border-secondary rounded-full">
                         Book Free Consultation 
                     </Link>
                  </div>

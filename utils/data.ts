@@ -69,40 +69,40 @@ export const standing = [
 
 export const testimonies = [
     {
-        id: 1,
+        id: 0,
         name: 'julia Anderson',
         img: test1,
-        message: 'My experience with surgeona is amazing, they are literally the best in the field. Very nice people with endless support on every step of the way. Thumps up guys, and Thanks. '
+        message: `Immensely grateful for reconstructive surgery, Plastic Surgeona restored my self-confidence after my accident`
     },
      {
         id: 1,
         name: 'Nina Adams',
         img: test2,
-        message: 'My experience with surgeona is amazing, they are literally the best in the field. Very nice people with endless support on every step of the way. Thumps up guys, and Thanks. '
+        message: `Game-changer! Non-surgical facial rejuvenation was tailored to my needs, and I feel years younger.`
     },
       {
         id: 2,
         name: 'Amelia Watson',
         img: test3,
-        message: 'My experience with surgeona is amazing, they are literally the best in the field. Very nice people with endless support on every step of the way. Thumps up guys, and Thanks. '
+        message: `Unmatched expertise! My facelift transformed my appearance, thanks to Plastic Surgeona's precision and artistry`
     },
      {
         id: 3,
         name: 'Lilly Fox',
         img: test4,
-        message: 'My experience with surgeona is amazing, they are literally the best in the field. Very nice people with endless support on every step of the way. Thumps up guys, and Thanks. '
+        message: `Exceptional experience! My tummy tuck was life-changing, thanks to Plastic Surgeona's professionalism and care.`
     },
     {
         id: 3,
         name: 'Ismail Ahmad',
         img: test5,
-        message: 'My experience with surgeona is amazing, they are literally the best in the field. Very nice people with endless support on every step of the way. Thumps up guys, and Thanks. '
+        message: `Thrilled with my breast augmentation results! Plastic Surgeona's dedication and attention to detail are impressive.`
     },
     {
         id: 3,
         name: 'Doud Gaya',
         img: julia,
-        message: 'My experience with surgeona is amazing, they are literally the best in the field. Very nice people with endless support on every step of the way. Thumps up guys, and Thanks. '
+        message: `Grateful for the welcoming team at Plastic Surgeona, my rhinoplasty was a success, and I'm more confident than ever!`
     },
 ]
 
