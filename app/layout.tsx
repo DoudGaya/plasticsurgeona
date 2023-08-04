@@ -27,6 +27,7 @@ export default function RootLayout({
         <meta name="keywords"
           content="plastic surgery, 
           cosmetic surgery,
+          united state,
           plastic surgeon,
           Turkey, global plastic surgery,
           aesthetic procedures,
