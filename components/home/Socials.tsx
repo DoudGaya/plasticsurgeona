@@ -20,8 +20,7 @@ const socials = [
         id: 3,
         icon: ( <LiaTwitter className=' h-7 w-7' />),
         link:'https://www.facebook.com/'
-    },
-    {
+    },    {
         id: 4,
         icon: <LiaLinkedinIn className=' h-7 w-7' />,
         link:'https://www.facebook.com/'
@@ -40,12 +39,12 @@ export const CallToAction = () => {
           </div>
           <div className=" grid grid-cols-4 gap-x-6 text-white">
             {
-                      socials.map((social) => {
-                          return (
-                        <Link key={social.id} href={social.link} className=' p-1 bg-primary/90 hover:bg-primary/70 rounded-xl' >
-                           <span>{social.icon}</span>
-                        </Link>
-                    )
+                socials.map((social) => {
+                    return (
+                            <Link key={social.id} href={social.link} className=' p-1 bg-primary/90 hover:bg-primary/70 rounded-xl' >
+                                <span>{social.icon}</span>
+                            </Link>
+                            )
                 })          
             }
           </div>

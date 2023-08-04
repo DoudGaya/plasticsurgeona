@@ -6,12 +6,12 @@ import React from 'react'
 
 export const Navigation = () => {
   return (
-    <div className=" w-full fixed top-0 left-0 bg-[rgb(255,224,209)] justify-center text-stone-700 shadow-lg py-3 h-auto  flex ">
-    <div className=" flex justify-between  max-w-[1200px] w-full ">
+    <div className=" w-full fixed top-0 left-0 z-50 bg-[rgb(255,224,209)] justify-center text-stone-700 shadow-lg py-3 h-auto  flex ">
+    <div className=" flex justify-between  max-w-[1300px] w-full ">
         <div className="  w-max">
            <Link href={'/'} className="">
           <div className='  flex h-16 float-right' >
-            <Image src={logo} className='object-contain' alt='Plastic Surgeona' />
+            <Image src={logo} className='' height={70} sizes='20rem' alt='Plastic Surgeona' />
          </div>
        </Link>
       </div>

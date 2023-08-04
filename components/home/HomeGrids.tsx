@@ -70,7 +70,7 @@ const svgs = [
 export const HomeGrids = () => {
   return (
       <div className=" flex flex-col justify-center my-20 mx-auto max-w-4xl">
-          <div className=" flex justify-center border-b py-3 ">
+          <div className=" flex justify-center border-b border-primary py-3 ">
               <h2 className=' font-rale text-2xl'>Some of our Cosmetic Procedures</h2>
           </div>
           

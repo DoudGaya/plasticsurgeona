@@ -4,7 +4,8 @@ import { Banner } from '@/components/home/Banner'
 import { CallToAction } from '@/components/home/Socials'
 import { HomeGrids } from '@/components/home/HomeGrids'
 import { Gallery } from '@/components/home/Gallery'
-
+import { Testimonials } from '@/components/home/Testimonials'
+import { BeforeAndAfter } from '@/components/home/BeforeAndAfter'
 export default function Home() {
   return (
     <main className=" flex flex-col w-full">
@@ -13,6 +14,8 @@ export default function Home() {
       <CallToAction />
       <About />
       <Gallery />
+      <Testimonials />
+      <BeforeAndAfter />
     </main>
   )
 }

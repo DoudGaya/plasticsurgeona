@@ -24,6 +24,29 @@ export default function RootLayout({
           key="desc"
           content="PlasticSurgeonA offers world-class plastic surgery services in Turkey. Our expert plastic surgeons provide a wide range of cosmetic procedures. Contact us for a consultation!"
         />
+        <meta name="keywords"
+          content="plastic surgery, 
+          cosmetic surgery,
+          plastic surgeon,
+          Turkey, global plastic surgery,
+          aesthetic procedures,
+          plastic surgery Turkey,
+          best plastic surgeon,
+          plastic surgery clinic,
+          plastic surgery center,
+          face lift, rhinoplasty,
+          breast augmentation,
+          liposuction,
+          tummy tuck,
+          mommy makeover,
+          body contouring,
+          non-surgical treatments,
+          Botox,
+          dermal fillers,
+          facial rejuvenation,
+          turkey plastic surgery,
+          plastic surgeon in Turkey" />
+
 
         <title className=' font-rale italic'>Plastic Surgeona | Expert Touch</title>
         <meta name='robots' content='index,follow' />
@@ -45,7 +68,6 @@ export default function RootLayout({
         <meta name="twitter:description" content="PlasticSurgeonA offers world-class plastic surgery services in Turkey. Our expert plastic surgeons provide a wide range of cosmetic procedures. Contact us for a consultation!" />
         <meta name="twitter:image" content="https://plasticsurgeona.com/images/twitter-card-image.jpg" /> 
 
-
         <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=5,minimum-scale=1,user-scalable=yes" />
         <link rel="canonical" href="https://www.plasticsurgeona.com/" />
         <meta name="referrer" content="origin-when-cross-origin" />
@@ -53,7 +75,7 @@ export default function RootLayout({
         <meta property="og:title" content="Plastic Surgeona" />
         
       </Head>
-      <body className={`${inter.className} bg-[rgb(255,253,252)]`}>
+      <body className={`${inter.className} bg-[rgb(253,243,238)]`}>
         <Navigation />
         {children}
       </body>
