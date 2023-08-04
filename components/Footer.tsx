@@ -2,6 +2,7 @@ import React from 'react'
 import logo from '@/public/assets/logo.png'
 import Image from 'next/image'
 import Link from 'next/link'
+import { socials } from '@/utils/data'
 
 export const Footer = () => {
   return (
@@ -29,7 +30,7 @@ export const Footer = () => {
                      </div>
                 </div>
               </div>
-              <div className=" border-r border-tert/50 py-20">
+              <div className=" border-r border-tert/50 py-10">
                   <div className=" flex items-center flex-col">
                       <h3 className=' text-2xl font-rale pb-3 border-b border-secondary'> Useful Links</h3>
                       <ul className=' text-center py-3 space-y-2 font-rale'>
@@ -43,12 +44,45 @@ export const Footer = () => {
                             <Link href={'/consultation'} className=" hover:underline hover:text-tert hover:font-semibold">Consultation</Link>
                         </li>
                         <li>
-                            <Link href={'/services'} className=" hover:underline hover:text-tert hover:font-semibold">Services</Link>
+                            <Link href={'/servies'} className=" hover:underline hover:text-tert hover:font-semibold">Services</Link>
+                        </li>
+                        <li>
+                            <Link href={'/galleries'} className=" hover:underline hover:text-tert hover:font-semibold">Galleries</Link>
+                        </li>
+                        <li>
+                            <Link href={'/articles'} className=" hover:underline hover:text-tert hover:font-semibold">Articles</Link>
                         </li>
                       </ul>
                     </div>
               </div>
-              <div className=" py-20">
+              <div className=" py-10 flex items-center flex-col">
+                   <h3 className=' text-2xl font-rale pb-3 border-b border-secondary'> More Links</h3>
+                      <ul className=' text-center py-3 space-y-2 font-rale'>
+                          
+                          <li>
+                            <Link href={'/privacy-policy'} className=" hover:underline hover:text-tert hover:font-semibold">Privacy Policy</Link>
+                          </li>
+                          <li>
+                            <Link href={'/faq'} className=" hover:underline hover:text-tert hover:font-semibold">Frequently Asked Questions</Link>
+                          </li>
+                           <li>
+                            <Link href={'/term-of-service'} className=" hover:underline hover:text-tert hover:font-semibold">Term of Service</Link>
+                      </li>
+                      
+                  </ul>
+                   <div className=" py-4 mx-auto grid gap-x-4 grid-cols-4">
+                          {
+                              socials.map((social) => {
+                                  return (
+                                <Link key={social.id} href={social.link} className=" hover:bg-primary/30 rounded-full">
+                                    <span className='p-2 flex justify-center items-center bg-secondary rounded-full'>
+                                        { social.icon }      
+                                  </span>
+                                </Link>
+                               )   
+                              })
+                          }
+                      </div>
 
               </div>
           </div>
