@@ -9,7 +9,7 @@ export const Testimonials = () => {
       <div className="py-20 bg-primary/50 px-10 lg:px-0">
         <div className=" max-w-6xl mx-auto">
           <div className=" flex flex-col items-center">
-            <h2 className=' text-3xl my-10 text-[#ffdccb] font-semibold tracking-wide font-rale'>What our client saying about Us</h2>
+            <h2 className=' text-3xl my-10 text-[#ffdccb] font-semibold tracking-wide font-rale'>What our Clients says About Us</h2>
             <div className=" grid lg:grid-cols-3 grid-cols-1 py-6 w-full gap-6">
               {
                 testimonies.map((testimo) => {
