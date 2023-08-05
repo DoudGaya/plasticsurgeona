@@ -4,7 +4,7 @@ export const Banner = () => {
   return (
     <div className='  bg-blend-overlay bg-stone-700 bg-right h-full lg:h-screen py-[100px] bg-no-repeat bg-cover lg:bg-center' style={{ backgroundImage: `url(${bannerIMG.src})` }}> 
       <div className=" py-10 max-w-3xl px-10 lg:px-0 text-center mx-auto items-center justify-center">
-        <h3 className=' font-popping text-2xl  text-white lg:text-4xl'>
+        <h3 className=' font-rale text-2xl  text-white lg:text-4xl'>
         Say Goodbye To Stubborn Fat
           and Saggy Belly Skin With 
           Tummy Tuck Surgery
