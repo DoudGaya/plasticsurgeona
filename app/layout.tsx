@@ -4,6 +4,10 @@ import { Inter } from 'next/font/google'
 import { Navigation } from '@/components/Navigation'
 import Head from 'next/head'
 import { Footer } from '@/components/Footer'
+import { MobileNav } from '@/components/MobileNav'
+import { MobileFooter } from '@/components/MobileFooter'
+import { MobileContext} from '@/components/context/MobileNavContext'
+import { Sidebar } from '@/components/Sidebar'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -58,7 +62,6 @@ export default function RootLayout({
         <meta property="og:url" content="https://plasticsurgeona.com" />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="PlasticSurgeonA" />
-
         <meta
           property="og:image"
           content="../public/logo.png"
@@ -75,12 +78,16 @@ export default function RootLayout({
         <meta name="referrer" content="origin-when-cross-origin" />
         <meta property="og:site_name" content="Plastic Surgeona" />
         <meta property="og:title" content="Plastic Surgeona" />
-        
       </Head>
       <body className={`${inter.className} bg-[rgb(253,243,238)]`}>
-        <Navigation />
-        {children}
-        <Footer />
+        <MobileContext>
+          <Sidebar />
+          <Navigation />
+            <MobileNav />
+              {children}
+            <Footer />
+          <MobileFooter />
+        </MobileContext>
       </body>
     </html>
   )
