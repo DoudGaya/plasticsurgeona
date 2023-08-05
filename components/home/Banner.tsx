@@ -40,7 +40,7 @@ export const Banner = () => {
           </div>
         </div>
         <div className="">
-          Hello hi 
+         
         </div>
       </div>
     </div>

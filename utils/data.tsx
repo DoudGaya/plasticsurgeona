@@ -1,4 +1,4 @@
-// tanding image about us sections
+// standing image about us sections
 import st from '@/public/assets/stand/st.jpg'
 import st1 from '@/public/assets/stand/st1.jpg'
 import st2 from '@/public/assets/stand/st2.jpg'
@@ -6,8 +6,6 @@ import st3 from '@/public/assets/stand/st3.jpg'
 import st4 from '@/public/assets/stand/st4.jpg'
 import st5 from '@/public/assets/stand/st5.jpg'
 import st6 from '@/public/assets/stand/st6.jpg'
-import julia from '@/public/assets/testimo.jpeg'
-
 // testimonials
 
 import test1 from '@/public/images/test1.png'
@@ -15,18 +13,17 @@ import test2 from '@/public/images/test2.png'
 import test3 from '@/public/images/test3.png'
 import test4 from '@/public/images/test4.png'
 import test5 from '@/public/images/test5.png'
+import test from '@/public/images/test.png'
 
 // images of surgery
 import before from '@/public/assets/before&after/bf.jpg'
 import before1 from '@/public/assets/before&after/bf1.jpg'
 import before2 from '@/public/assets/before&after/bf2.jpg'
 import before3 from '@/public/assets/before&after/bf3.jpg'
-import before4 from '@/public/assets/before&after/bf4.jpg'
 import before5 from '@/public/assets/before&after/bf5.png'
 import before6 from '@/public/assets/before&after/bf6.jpg'
 import before7 from '@/public/assets/before&after/bf7.png'
 import before8 from '@/public/assets/before&after/bf8.jpg'
-import Link from 'next/link'
 import { LiaFacebookSquare } from 'react-icons/lia'
 import { LiaTwitter } from 'react-icons/lia'
 import { LiaInstagram } from 'react-icons/lia'
@@ -105,8 +102,8 @@ export const testimonies = [
     },
     {
         id: 1,
-        name: 'Doud Gaya',
-        img: julia,
+        name: 'Meagan Mike',
+        img: test,
         message: `Game-changer! Non-surgical facial rejuvenation was tailored to my needs, and I feel years younger.`
     },
    

@@ -1,9 +1,7 @@
 "use client"
-import Link from 'next/link'
 import Image from 'next/image'
 import logo from '@/public/assets/logo.png'
 import { useGlobanNavContext } from './context/MobileNavContext'
-
 export const Sidebar = () => {
         const {nav}: any = useGlobanNavContext()
   return (
